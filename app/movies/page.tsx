@@ -4,7 +4,6 @@ import Link from 'next/link';
 import CircularProgress from '@/components/Progress_Bars/CircularProgress';
 import { genres } from '@/components/Trending/genres';
 import { genresArray } from '@/components/genreArray';
-import LoadingState from '@/components/LoadingState';
 
 // Skeleton Loader for grid
 const SkeletonGrid: React.FC<{ count?: number }> = ({ count = 10 }) => (
